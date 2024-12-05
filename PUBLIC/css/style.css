@@ -1,0 +1,61 @@
+/* *{
+    background-color: black;
+} */
+ .navbar{
+    justify-content:space-between;
+    display: flex;
+    margin: 2%;
+    padding: 10px;
+    background-color: rgba(35, 5, 75, 0.548) !important;
+}
+.services{
+    justify-content: space-between;
+    display: flex;
+    width:auto ;
+    height: auto;
+    margin: 2%;
+    padding: 10PX;
+}
+.parag{
+    justify-content:center;
+    display: flex;
+    color: blue;
+}
+.card-text{
+    color: rgba(255, 0, 34, 0.63);
+    
+}
+.tContact{
+    color: rgba(255, 123, 0, 0.671);
+    justify-content: center;
+    display: flex;
+    margin: 5%;
+    padding: 10PX;
+    width: auto;
+    height: auto;
+}
+.helo{
+    justify-content: space-between; 
+    display: flex;
+    width:auto ;
+    height: auto;
+    margin: 2%;
+    padding: 10PX;
+    background-color:brown !important;
+
+}
+/* Center the image on the page */
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4; /* Optional background color */
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image scales proportionally */
+}
